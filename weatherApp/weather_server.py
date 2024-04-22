@@ -14,7 +14,7 @@ def weather():
         # for default name tampa
         city = 'tampa'
 
-    load_dotenv() 
+    # load_dotenv() 
     # your API key will come here 
     api_key = '48a90ac42caa09f90dcaeee4096b9e53'
     # source contain json data from api 
