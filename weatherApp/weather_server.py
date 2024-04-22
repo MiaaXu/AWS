@@ -35,4 +35,4 @@ def weather():
     } 
     return jsonify(data)
 
-app.run(debug=True, host='0.0.0.0', port=6000)
+app.run(debug=True, host='0.0.0.0', port=8080)
