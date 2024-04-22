@@ -16,7 +16,7 @@ def weather():
 
     load_dotenv() 
     # your API key will come here 
-    api_key = os.getenv('api_key')
+    api_key = '48a90ac42caa09f90dcaeee4096b9e53'
     # source contain json data from api 
     resp = requests.get(f'http://api.openweathermap.org/data/2.5/weather?q={city}&appid={api_key}')
 
